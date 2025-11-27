@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DoBu Martial Arts</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="scroll-animation.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <!--Nav Bar-->
+  <nav>
+    <a href="home.html" class="logo">   
+      <div class="logo-img"></div>
+    </a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <ul class="menu-items">
+      <li><a href="home.html" class=" h-font">Home</a></li>
+      <li><a href="our-services.html" class=" h-font">Our Services</a></li>
+      <li><a href="home.html#pricing" class=" h-font">Pricing</a></li>
+      <li><a href="trainers.html" class=" h-font">Trainers</a></li>
+      <li><a href="about-us.html" class=" h-font">About Us</a></li>
+    </ul>
+    <div class="btn-container">
+      <a href="register.html"><button class="btn btn-register h-font">Register</button></a>
+      <a href="login.html"><button class="btn btn-login h-font">LogIn</button></a>
+    </div>
+  </nav>
+  <section class="register-container entry4">
+    <div class="form-container">
+      <div class="left-section">
+        <h1 class="h-font form-heading">
+          Register for <span class="logo-text">DoBu</span> Martial Arts
+        </h1>
+        <p class="p-font form-description">
+          Welcome to the DoBu family!
+        </p>
+        <div class="btn-box">
+        <a href="login.html"><button class="btn btn-LogIn">LogIn</button></a>
+        </div>
+      </div>
+      <div class="right-section">
+        <h1 class="h-font register-heading">
+          Register Here
+        </h1>
+        <form action="">
+          <input type="text" placeholder="User Name" required><br>
+          <input type="email" placeholder="Email" required><br>
+          <input type="password" placeholder="Password" required><br>
+            <select name="services" class="p-font" style="font-size: 1.7rem;">
+              <option value="jiu-jitsu">Select a program</option>
+              <option value="jiu-jitsu">Jiu-jitsu</option>
+              <option value="karate">Karate</option>
+              <option value="judo">Judo</option>
+              <option value="muay-thai">Muay-Thai</option>
+              <option value="private-self-defense">Private Tuition</option>
+              <option value="open-mat">Open-mat Session</option>
+              <option value="kids-jiu-jitsu">Kids Jiu-jitsu</option>
+              <option value="kids-judo">Kids Judo</option>
+              <option value="kids-karate">Kids Karate</option>
+              <option value="fitness">Fitness Training</option>
+          </select><br>
+          <button class="btn btn-register-now">Register Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="home.js"></script>
+  <script src="scroll-animation.js"></script>
+</body>
+<footer>
+  <div class="contents">
+    <div class="about-us">
+      <h1 class="h-font footer-heading">About Us</h1>
+      <ul class="p-font">
+        <li><a href="about-us.html">Our Background</a></li>
+        <li><a href="our-services.html#timetable">Timetable</a></li>
+        <li><a href="about-us.html#facilities">Facilities</a></li>
+        <li><a href="our-services.html">Services</a></li>
+        <li><a href="home.html#pricing">Memberships</a></li>
+        <li><a href="trainers.html">Trainers' Info</a></li>
+      </ul>
+    </div>
+    <div class="community">
+      <h1 class="h-font footer-heading">Our Community</h1>
+      <ul class="p-font">
+        <li style="display: flex;align-items: center;"><i class="fa-brands fa-square-facebook" style="font-size: 3rem; margin-right: 10px;"></i><a href="#">Facebook</a></li>
+        <li style="display: flex;align-items: center;"><i class="fa-brands fa-square-youtube" style="font-size: 3rem; margin-right: 10px;"></i><a href="#">YouTube</a></li>
+        <li style="display: flex;align-items: center;"><i class="fa-brands fa-square-instagram" style="font-size: 3rem; margin-right: 10px;"></i><a href="#">Instagram</a></li>
+        <li style="display: flex;align-items: center;"><i class="fa-brands fa-square-twitter" style="font-size: 3rem; margin-right: 10px;"></i><a href="#">Twitter</a></li>
+        <li style="display: flex;align-items: center;"><i class="fa-sharp-duotone fa-solid fa-blog" style="font-size: 3rem; margin-right: 10px;"></i><a href="#">Blogs</a></li>
+      </ul>
+    </div>
+    <div class="contact-us">
+      <h1 class="h-font footer-heading">Contact Us</h1>
+      <ul class="p-font">
+        <li>12 Olympic Way Stratford,<br>
+           London E20 1DB, United Kingdom</li>
+        <li>Phone:<br>
+          <a href="">+554 224 679</a></li>
+        <li>Email: <br>
+          <a href="">info@dobumartialarts.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright-section">
+    <p class="p-font">Copyright &copy; 2025 DoBu Martial Arts. All Rights Reserved. Privacy Policy</p>
+  </div>
+</footer>
+</html>
