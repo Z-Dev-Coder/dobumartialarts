@@ -44,3 +44,76 @@
 }
 
 }
+
+@media(min-width:800px){
+  .left-section{
+  height: 265px;
+}
+
+.role{
+   font-size: .8rem;
+}
+
+.trainer-name{
+  font-size: 1.6rem;
+}
+
+.trainer-description,.detail-section,.trainer-details{
+  font-size: .9rem;
+  line-height: 1.5rem;
+}
+
+}
+
+@media(min-width:1300px){
+
+ .trainer-heading{
+  margin:9rem 0 2rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.trainer-card{
+  padding:2rem;
+}
+
+.left-section{
+  height: 350px;
+}
+.role{
+   font-size: 1rem;
+}
+
+.trainer-name{
+  font-size: 2rem;
+}
+
+.trainer-description,.detail-section,.trainer-details{
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.underlined{
+  text-underline-offset: .4rem;
+}
+}
+
+@media(min-width:1440px){
+  .left-section{
+  height: 450px;
+}
+
+.trainer-name{
+  font-size: 2.4rem;
+}
+
+.trainer-description,.detail-section,.trainer-details{
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.role{
+   font-size: 1.4rem;
+}
+
+}

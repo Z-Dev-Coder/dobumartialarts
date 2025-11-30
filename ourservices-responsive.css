@@ -190,3 +190,71 @@ th:hover, td:hover{
   cursor: pointer;
 }
 }
+
+@media (min-width:1024px){
+  .intro-group{
+  height:70vh;
+}
+
+.intro-text-container .service-intro-text{
+  font-size: 1.6rem;
+  letter-spacing: .2rem;
+  font-weight: 400;
+}
+
+.left-section, .right-section{
+  height:70vh;
+}
+
+.img-container{
+    padding:3rem;
+}
+
+.bg-white .text-container{
+    padding:2.6rem;
+}
+
+.bg-white .martial-art-heading{
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+.bg-white .martial-arts-description{
+    font-size: 1rem;
+    letter-spacing: .05rem;
+  }
+
+  .bg-white .btn-join{
+    padding:.4rem 4rem;
+    font-size: .9rem;
+    margin-top: .7rem;
+  }
+ .schedule{
+    height: 90vh;
+  }
+
+.schedule .schedule-heading{
+  font-size: 1.6rem;
+  margin-bottom: .9rem;
+  text-underline-offset: .4rem;
+}
+
+th,td{
+    border-radius: 7px;
+    font-size: .7rem;
+}
+}
+
+@media(min-width:1300px){
+  .schedule{
+    height: 100vh;
+  }
+.schedule .schedule-heading{
+  margin-bottom: 2rem;
+}
+
+th,td{
+    font-size: .8rem;
+    padding:.6rem .4rem;
+}
+}
