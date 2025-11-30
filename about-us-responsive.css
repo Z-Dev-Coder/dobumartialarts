@@ -1,0 +1,60 @@
+@media(min-width:768px){ 
+  .about-us-intro{
+  height:50vh;
+  }
+
+.main-heading{
+  font-size: 1.4rem;
+  letter-spacing: .2rem;
+}
+
+.content-container{
+    width:70%;
+    padding:2rem 0;
+}
+
+.business-heading{
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  text-align: left;
+}
+
+.business-description{
+  font-size: .8rem;
+  text-align: justify;
+  letter-spacing: .1rem;
+  line-height: 1.2rem;
+}
+
+hr{
+  width:85%;
+}
+
+.marginLeft{
+  margin-left:4rem;
+}
+
+.facility-heading{
+  font-size: 1.4rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.828);
+}
+
+.facility-name{
+  font-size: 1.1rem;
+}
+
+.img-container{
+flex-direction: row;
+ gap:1rem;
+}
+
+.img-card{
+  margin-top:1.4rem;
+  width:150px;
+  height:150px;
+}
+
+}
+
+
+

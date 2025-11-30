@@ -1,0 +1,563 @@
+@media (max-width: 1300px) {
+  html::-webkit-scrollbar{
+  width:.45rem;
+}
+
+html::-webkit-scrollbar-thumb{
+  height:7rem;
+}
+
+  .h-font{
+    font-weight: 600;
+    font-size: 1rem;  
+  }
+
+  .section-heading{
+    padding:3rem 0 0 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-size:2rem ;
+  }
+
+.logo-img{
+  width:80px; 
+  height:80px;
+}
+
+nav{
+  padding:10px 50px;
+}
+
+.btn{
+  padding: 5px 0;
+  border-radius: 4px;
+}
+
+.btn-login, .btn-register{
+  width:100px;
+}
+
+.container .btn{
+  width:150px;
+}
+
+.intro-text{
+  font-weight: 600;
+  font-size:1.8rem;
+  letter-spacing: 0.5rem;
+  line-height: 3rem;
+  padding-bottom: 5rem;
+  padding-left:240px;
+}
+.logo-text{
+  padding:0.3rem .7rem;
+}
+.intro-text .p-font{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.text2 .main-text{
+  letter-spacing: 1rem;
+}
+
+.text3 .main-text{
+  letter-spacing: 1.3rem;
+}
+
+.container .text3{
+  line-height: 3rem;
+  padding-bottom:5rem;
+}
+
+.facilities-container .box{
+  width: 180px;
+  height:180px;
+  border-radius:5px;
+}
+
+.facilities-container .box .content-section{
+  padding:20px 15px 10px;
+}
+
+.facilities-container .facility-name{
+  font-size: .8rem;
+}
+
+.martial-arts{
+  padding:10px 0 0;
+}
+
+.martial-arts-heading{
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.text-section .p-font{
+  font-size: 1.1rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+}
+.content-text .text-section{
+  padding:5rem;
+}
+.text-section .btn-service{
+  margin-top:1.3rem;
+  padding:.5rem 0;
+  font-size: 1.1rem;
+}
+
+.logo-carousel{
+  padding:1rem 0 1rem 0;
+  margin:2.5rem 0 1rem 0;
+}
+
+.logo-group{
+  padding-right: 4rem;
+  gap:4rem;
+}
+
+.logo-group .card{
+  flex:0 0 7em;
+  height:4em;
+}
+
+.pricing-section{
+  margin-top:0;
+}
+
+.pricing-section  .content-section{
+  margin:50px;
+  padding-bottom: 0px;
+  border-radius: 2.5rem;
+  padding-bottom: 35px;
+}
+
+.content-section>.section-heading{
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  padding:1.2rem;
+  text-underline-offset: -.8rem;
+}
+
+.content-section .small-description{
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding:1.5rem 5rem 0 5rem;
+}
+
+.card-group{
+  gap:1.5rem;
+  padding:1.5rem 2.5rem;
+}
+
+.card-group .plan-card{
+  padding:1.6rem 1.4rem;
+}
+
+.plan-card .card-heading{
+  font-size: 1.5rem;
+}
+
+.plan-card .sec-heading{
+  font-size:.9rem;
+  margin-top:.6rem;
+}
+
+.plan-card .price-text{
+  font-size:2rem;
+}
+
+.price-text .small-text{
+  font-size: 1rem;
+}
+
+.plan-card .description{
+  font-size:.9rem;
+  line-height: 2rem;
+}
+
+.plan-card .btn-plan{
+  font-size:1rem;
+  border-radius: 0.4rem;
+  padding:.7rem 0;
+  margin-top:1rem;
+}
+
+.plan-card .logo-text{
+  font-weight: 400;
+  padding:10px 12px;
+  font-size: .7rem;
+  letter-spacing: .1rem;
+  position:absolute;
+  transform: translateX(.8rem);
+}
+
+.plan-card .session-text{
+  font-size: .7rem;
+  margin-top: .5rem;
+}
+
+.plan-card .card1{
+  font-size: 1rem;
+}
+
+.plan-card .card2{
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.plan-card .card3{
+  line-height: 2.4rem;
+  margin-bottom: .5rem;
+}
+
+.card-group .card-1{
+  border-top:7px solid #7c7979;
+} 
+
+.card-group .card-2{
+  border-top:7px solid rgb(92, 92, 255);
+}
+
+.special-plans .content-section .section-heading{
+  font-size: 2.5rem;
+}
+
+.special-plans .small-description{
+  padding:1rem 0 0 0;
+  margin-bottom: 1.5rem;
+}
+
+.instructor-section{
+  margin:40px 0 0 0;
+}
+
+.instructor-img-group{
+  gap:7rem;
+}
+
+.instructor-img-container{
+  width:200px;
+  height:250px;
+}
+
+.instructor-description{
+  margin:2rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.btn-instructors{
+  font-size: 1.2rem;
+  border-radius: .5rem;
+  margin:2.5rem;
+  padding:.5rem 7rem;
+}
+
+footer .contents{
+  padding: 0 9rem 2rem 9rem;
+}
+
+.copyright-section p{
+  padding:2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer-heading{
+  font-size: 1.9rem;
+  margin:3.5rem 0 1.5rem 0;
+}
+
+footer ul li{
+  font-size: 1rem;
+}
+
+.community i{
+  font-size: 1.5rem;
+}
+}
+
+/* max-width: 1372px */
+
+@media screen and (min-width: 768px){
+
+  .h-font{
+    font-weight: 600;
+    font-size: 1rem;  
+  }
+
+  .section-heading{
+    padding:3rem 0 0 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    font-size:2rem ;
+  }
+
+.logo-img{
+  width:80px; 
+  height:80px;
+}
+
+nav{
+  padding:10px 50px;
+}
+
+.btn{
+  padding: 5px 0;
+  border-radius: 4px;
+}
+
+.btn-login, .btn-register{
+  width:100px;
+}
+
+.container .btn{
+  width:150px;
+}
+
+.intro-text{
+  font-weight: 600;
+  font-size:1.8rem;
+  letter-spacing: 0.5rem;
+  line-height: 3rem;
+  padding-bottom: 5rem;
+  padding-left:240px;
+}
+.logo-text{
+  padding:0.3rem .7rem;
+}
+.intro-text .p-font{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.text2 .main-text{
+  letter-spacing: 1rem;
+}
+
+.text3 .main-text{
+  letter-spacing: 1.3rem;
+}
+
+.container .text3{
+  line-height: 3rem;
+  padding-bottom:5rem;
+}
+
+.facilities-container .box{
+  width: 180px;
+  height:180px;
+  border-radius:5px;
+}
+
+.facilities-container .box .content-section{
+  padding:20px 15px 10px;
+}
+
+.facilities-container .facility-name{
+  font-size: .8rem;
+}
+
+.martial-arts{
+  padding:10px 0 0;
+}
+
+.martial-arts-heading{
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.text-section .p-font{
+  font-size: 1.1rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+}
+.content-text .text-section{
+  padding:5rem;
+}
+.text-section .btn-service{
+  margin-top:1.3rem;
+  padding:.5rem 0;
+  font-size: 1.1rem;
+}
+
+.logo-carousel{
+  padding:1rem 0 1rem 0;
+  margin:2.5rem 0 1rem 0;
+}
+
+.logo-group{
+  padding-right: 4rem;
+  gap:4rem;
+}
+
+.logo-group .card{
+  flex:0 0 7em;
+  height:4em;
+}
+
+.pricing-section{
+  margin-top:0;
+}
+
+.pricing-section  .content-section{
+  margin:50px;
+  padding-bottom: 0px;
+  border-radius: 2.5rem;
+  padding-bottom: 35px;
+}
+
+.content-section>.section-heading{
+  font-size: 2.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  padding:1.2rem;
+  text-underline-offset: -.8rem;
+}
+
+.content-section .small-description{
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding:1.5rem 5rem 0 5rem;
+}
+
+.card-group{
+  gap:1.5rem;
+  padding:1.5rem 2.5rem;
+}
+
+.card-group .plan-card{
+  padding:1.6rem 1.4rem;
+}
+
+.plan-card .card-heading{
+  font-size: 1.5rem;
+}
+
+.plan-card .sec-heading{
+  font-size:.9rem;
+  margin-top:.6rem;
+}
+
+.plan-card .price-text{
+  font-size:2rem;
+}
+
+.price-text .small-text{
+  font-size: 1rem;
+}
+
+.plan-card .description{
+  font-size:.9rem;
+  line-height: 2rem;
+}
+
+.plan-card .btn-plan{
+  font-size:1rem;
+  border-radius: 0.4rem;
+  padding:.7rem 0;
+  margin-top:1rem;
+}
+
+.plan-card .logo-text{
+  font-weight: 400;
+  padding:10px 12px;
+  font-size: .7rem;
+  letter-spacing: .1rem;
+  position:absolute;
+  transform: translateX(.8rem);
+}
+
+.plan-card .session-text{
+  font-size: .7rem;
+  margin-top: .5rem;
+}
+
+.plan-card .card1{
+  font-size: 1rem;
+}
+
+.plan-card .card2{
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.plan-card .card3{
+  line-height: 2.4rem;
+  margin-bottom: .5rem;
+}
+
+.card-group .card-1{
+  border-top:7px solid #7c7979;
+} 
+
+.card-group .card-2{
+  border-top:7px solid rgb(92, 92, 255);
+}
+
+.special-plans .content-section .section-heading{
+  font-size: 2.5rem;
+}
+
+.special-plans .small-description{
+  padding:1rem 0 0 0;
+  margin-bottom: 1.5rem;
+}
+
+.instructor-section{
+  margin:40px 0 0 0;
+}
+
+.instructor-img-group{
+  gap:7rem;
+}
+
+.instructor-img-container{
+  width:200px;
+  height:250px;
+}
+
+.instructor-description{
+  margin:2rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.btn-instructors{
+  font-size: 1.2rem;
+  border-radius: .5rem;
+  margin:2.5rem;
+  padding:.5rem 7rem;
+}
+
+footer .contents{
+  padding: 0 9rem 2rem 9rem;
+}
+
+.copyright-section p{
+  padding:2rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.footer-heading{
+  font-size: 1.9rem;
+  margin:3.5rem 0 1.5rem 0;
+}
+
+footer ul li{
+  font-size: 1rem;
+}
+
+.community i{
+  font-size: 1.5rem;
+}
+
+}

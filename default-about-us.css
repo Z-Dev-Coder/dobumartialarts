@@ -1,0 +1,218 @@
+.about-us-intro{
+  width:100vw;
+  height:40vh;
+  background-image: url(images/aboutus/about-us-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-intro::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.482);
+}
+
+.main-heading{
+  z-index:5;
+  font-size: 1rem;
+  text-shadow: 1px 1px 10px black;
+  padding:0;
+  transform:translateY(3rem);
+}
+
+.content-section{
+  display:flex;
+  justify-content: center;
+  background-color: rgb(23, 23, 23);
+}
+
+.content-container{
+    width:100%;
+    padding: 1rem;
+}
+
+.business-heading{
+  font-size: .7rem;
+  letter-spacing: .05rem;
+  margin-bottom: 1rem;
+}
+
+.business-description{
+  font-size: .6rem;
+  text-align: justify;
+  letter-spacing: .05rem;
+  line-height: .8rem;
+}
+
+.marginLeft{
+  margin: 0;
+}
+
+.logo-text{
+  padding:.15rem .3rem;
+}
+
+.facility-heading{
+  background-color: rgb(250, 245, 245);
+  color:rgba(0, 0, 0, 0.977);
+  text-align: center;
+  padding:1rem;
+  font-size: .7rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.828);
+  letter-spacing: .3rem;
+}
+
+hr{
+color:azure ;
+ width:100%;
+}
+
+.facilities-section{
+  background-color: rgb(23, 23, 23);
+  padding-top: 1rem;
+}
+
+.line-container{
+  background-color: rgb(23, 23, 23);
+  display: flex;
+  justify-content: center;
+}
+
+.facility-name{
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: underline;
+  text-decoration-color: var(--main-color);
+  text-underline-offset: .5rem;
+}
+
+.img-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:.5rem;
+}
+
+.img-card{
+  margin-top:1.4rem;
+  width:100%;
+  height:150px;
+  background-color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:1px solid rgb(65, 64, 64);
+  box-shadow: 1px 1px 5px rgb(65, 64, 64),
+              1px 1px 5px rgb(65, 64, 64) inset;
+  transition: .5s linear;
+}
+
+.img-card:hover{
+  transform: translateY(1.1rem);
+}
+
+.mat-area .img1{
+  background-image: url(images/aboutus/mat1.jpg);
+}
+
+.mat-area .img2{
+  background-image: url(images/aboutus/mat2.jpg);
+}
+
+.mat-area .img3{
+  background-image: url(images/aboutus/mat3.jpg);
+}
+
+.mat-area .img4{
+  background-image: url(images/aboutus/mat4.jpg);
+}
+
+.gym .img1{
+  background-image: url(images/aboutus/gym1.jpg);
+}
+
+.gym .img2{
+  background-image: url(images/aboutus/gym2.jpg);
+}
+
+.gym .img3{
+  background-image: url(images/aboutus/gym3.jpg);
+}
+
+.gym .img4{
+  background-image: url(images/aboutus/gym4.jpg);
+}
+
+.sauna .img1{
+  background-image: url(images/aboutus/sauna1.jpg);
+}
+
+.sauna .img2{
+  background-image: url(images/aboutus/sauna2.jpg);
+}
+
+.sauna .img3{
+  background-image: url(images/aboutus/sauna3.jpg);
+}
+
+.sauna .img4{
+  background-image: url(images/aboutus/sauna4.jpg);
+}
+
+.steam-room .img1{
+  background-image: url(images/aboutus/steam1.jpg);
+}
+
+.steam-room .img2{
+  background-image: url(images/aboutus/steam2.jpg);
+}
+
+.steam-room .img3{
+  background-image: url(images/aboutus/steam3.jpg);
+}
+
+.steam-room .img4{
+  background-image: url(images/aboutus/steam4.jpg);
+}
+
+.change-room .img1{
+  background-image: url(images/aboutus/change1.jpg);
+}
+
+.change-room .img2{
+  background-image: url(images/aboutus/change2.jpg);
+}
+
+.change-room .img3{
+  background-image: url(images/aboutus/change3.jpg);
+}
+
+.change-room .img4{
+  background-image: url(images/aboutus/change4.jpg);
+}
+
+.shower .img1{
+  background-image: url(images/aboutus/shower1.jpg);
+}
+
+.shower .img2{
+  background-image: url(images/aboutus/shower2.jpg);
+}
+
+.shower .img3{
+  background-image: url(images/aboutus/shower3.png);
+}
+
+.shower .img4{
+  background-image: url(images/aboutus/shower4.jpg);
+}

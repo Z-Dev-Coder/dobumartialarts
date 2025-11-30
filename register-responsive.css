@@ -1,0 +1,78 @@
+@media (min-width:768px){
+
+.form-container{
+  width:90%;
+  height:auto;
+  flex-direction: row;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1.5rem;
+  background-color: rgba(6, 6, 6, 0.555);
+  padding:0;
+  align-items: center;
+}
+
+.left-section{
+  width:60%;
+  margin: 0;
+  padding:0;
+}
+
+.right-section{
+  width:40%;
+  border-radius: 1.5rem;
+  padding:0 2rem;
+}
+
+.form-heading{
+  margin:1rem 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.form-description{
+  font-size: .8rem;
+  letter-spacing: .07rem;
+}
+
+.btn-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.btn-LogIn{
+  color: var(--text-color);
+  padding:.3rem 2rem;
+  font-size: .8rem;
+  border-radius: .4rem;
+  border:1px solid rgb(123, 122, 122);
+  box-shadow: 1px 1px 15px rgb(123, 122, 122);
+}
+
+.register-heading{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+input,#select{
+  padding: .7rem .7rem;
+  font-size: .7rem;
+}
+
+option{
+  font-size: .7rem;
+}
+
+::picker(select) {
+  height:9rem;
+}
+
+.btn-register-now{
+  margin:.5rem 0 2rem 0;
+}
+
+}
+

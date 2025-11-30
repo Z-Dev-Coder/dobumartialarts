@@ -1,0 +1,328 @@
+@media (min-width:768px){
+  html::-webkit-scrollbar{
+  width:.5rem;
+  background-color: #000000d8;
+}
+html::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+  border-radius: 5rem;
+  height:5rem;
+}
+
+.h-font{
+    font-weight: 400;
+    font-size: .8rem;
+    letter-spacing: 1.4px;
+}
+
+.p-font{
+    font-family:"Open Sans", sans-serif;
+    color:var(--text-color);
+    font-weight: 100;
+    font-size: .3rem;
+    letter-spacing: 1px;
+}
+
+nav{
+  justify-content: space-between;
+  padding:1rem 1.5rem;
+}
+
+#menu-icon{
+  display:none;
+}
+
+.menu-items{
+  display: flex;
+  flex-direction: row;
+  position:initial;
+  justify-content: space-evenly;
+  background-color: transparent;
+}
+
+.menu-items a{
+  border-bottom: none;
+}
+
+ul li{
+  position:relative;
+}
+
+.menu-items a::before {
+  content:'';
+  width:0;
+  height:1.4px;
+  position:absolute;
+  background-color:var(--main-color);
+  bottom:-3.5px;
+  transition: 0.3s all linear;
+  
+}
+
+.menu-items a:hover::before{
+  width:100%;
+}
+
+.btn-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-login, .btn-register{
+  width:70px;
+}
+
+.intro{
+  height:70vh;
+}
+
+.container .btn{
+  width:150px;
+  font-size: .8rem;
+}
+
+.intro-text{
+  font-weight: 600;
+  font-size:1rem;
+  letter-spacing:.4rem;
+  padding-left:100px;
+}
+
+.intro-text .p-font{
+  font-weight: 500;
+  font-size: .8rem;
+  letter-spacing:.2rem;
+}
+
+.text2 .main-text{
+  letter-spacing: .5rem;
+}
+
+.text3 .main-text{
+  letter-spacing: .7rem;
+}
+
+.container .text3{
+  line-height: 1.8rem;
+}
+
+.section-heading{
+  padding:1.3rem 0 1.3rem 0;
+  letter-spacing: 0.2rem;
+  font-size:1.4rem ;
+}
+
+.facilities-container{
+  padding:0 1.5rem;
+  flex-direction: row;
+  justify-content:space-evenly;
+  gap: .5rem;
+}
+
+.facilities-container .box{
+  width:120px;
+  height:120px;
+}
+
+.facilities-container .box .content-section{
+  padding:10px 5px 10px;
+}
+
+.facilities-container .facility-name{
+  font-size: .55rem;
+}
+
+.martial-arts{
+    height:80vh;
+    position:relative;
+    padding: 0;
+}
+
+.martial-arts-heading{
+  letter-spacing: 0.2rem;
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+}
+
+.martial-arts-container{
+  padding:0;
+  height:80%;
+  flex-direction: row;
+}
+
+.martial-arts-container .bg-img{
+  width:50%;
+  height:100%;
+  z-index: 4;
+  position: initial;
+}
+
+.martial-arts-container .bg-img:before{
+  width:0;
+}
+
+.martial-arts-container .content-text{
+  width:100%;
+  height:80%;
+  justify-content: right;
+  padding:0;
+  position: absolute;
+  top:50%;
+  transform: translate(0,-50%);
+}
+
+.content-text .text-section{
+  width:50%;
+  padding:1rem;
+  display: block;
+}
+
+.text-section .p-font{
+  font-size: .8rem;
+  font-weight: 300;
+  letter-spacing: .1rem;
+  line-height: 1.4rem;
+}
+
+.text-section .btn-service{
+  padding:.4rem 0;
+  width:60%;
+  font-size: .8rem;
+}
+
+.logo-carousel{
+  margin:0;
+  padding: .8rem 0 .8rem 0;
+}
+
+.pricing-section{
+  margin-top: 1rem;
+  width:100vw;
+}
+
+.pricing-section  .content-section{
+  margin:0;
+  border-radius: .7rem;
+}
+
+.content-section>.section-heading{
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  font-size:1.2rem ;
+  text-underline-offset: -.4rem;
+}
+
+.content-section .small-description{
+  font-size: .8rem;
+  font-weight: 500;
+  text-align: center;
+  padding:.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-group{
+  flex-direction: row;
+  gap:1rem;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.card-group .plan-card{
+  width:230px;
+  padding:1rem;
+}
+
+.plan-card .card-heading{
+  font-weight: 600;
+}
+
+.plan-card .sec-heading{
+  font-size:.6rem;
+  font-weight: 500;
+}
+
+.plan-card .description{
+  font-weight: normal;
+}
+
+.plan-card .session-text{
+  font-weight: 400;
+  padding:1.5px 12px;
+  font-size: .6rem;
+  border-radius: 8px;
+}
+
+.card-group .plan-card:hover{
+  transform:translateY(-1.2rem);
+}
+
+.odd-card1 li{
+  line-height: 1.2rem;
+}
+
+.odd-card2 li{
+  line-height: 1rem;
+}
+
+.odd-card3 li{
+  line-height: 1.1rem;
+}
+
+.instructor-img-group{
+  gap:4rem;
+}
+
+.martial-arts-heading{
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.instructor-img-container{
+  width:120px;
+  height:140px;
+}
+
+.instructor-description{
+  padding:0 3rem;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  line-height: 1.4rem;
+}
+
+.btn-instructors{
+  font-size: 1rem;
+}
+
+footer .contents{
+  display: flex;
+  justify-content:space-between;
+  padding:0 5rem 1rem 5rem;
+
+}
+
+.copyright-section p{
+  padding:.8rem;
+  font-size: .6rem;
+}
+
+.footer-heading{
+  font-size: 1rem;
+  font-weight: 500;
+  margin:2rem 0 1rem 0;
+  text-align: left;
+}
+
+footer ul li{
+  margin:.5rem 0;
+  font-size: .7rem;
+  font-weight: 400;
+}
+
+.community i{
+  font-size: 1rem;
+}
+
+}

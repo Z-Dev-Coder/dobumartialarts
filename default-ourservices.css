@@ -1,0 +1,154 @@
+html{
+  overflow-x: hidden;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.759);
+}
+.intro-group{
+  width:100vw;
+  height:40vh;
+  position:relative;
+}
+
+.intro-bg{
+  width:100%;
+  height:100%;
+  object-fit: fill;
+  object-position: center;
+  position:relative;
+}
+
+.intro-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.691);
+  width:100%;
+  height:100%;
+}
+
+.intro-text-container{
+  position:absolute;
+  top:70%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:100%;
+  text-align: center;
+}
+
+.intro-text-container .service-intro-text{
+  font-size: .7rem;
+  letter-spacing: .08rem;
+  text-transform: uppercase;
+}
+
+.service-contents-section{
+  width:100vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  gap:1rem;
+  margin: 1rem 0;
+}
+
+.service-contents-container{
+  width:100%;
+  position:relative;
+}
+
+.bg-black{
+  background-color: var(--bg-color);
+  z-index:1;
+}
+
+.bg-black:before{
+  position:absolute;
+  content:'';
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.632);
+  z-index:2;
+}
+  
+  .bg-white{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: transparent;
+    z-index: 3;
+  }
+
+  .no-padding{
+    padding:0;
+  }
+
+  .img-container{
+    width:100%; 
+    height:100%;
+    padding:.5rem;
+    filter: drop-shadow(1px 1px 6px #ffd226);
+}
+
+.no-filter{
+  filter:none;
+}
+
+.border-filter{
+  box-shadow: 1px 1px 6px #ffd226;
+}
+
+  .img-container img{
+    width:100%;
+    height:100%;
+  }
+
+  .bg-white .text-container{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    padding:2rem;
+    color: white;
+    z-index: 10001;
+  }
+
+  .bg-white .martial-art-heading{
+    color:var(--text-color);
+    font-size: .8rem;
+    margin-bottom: .3rem;
+    font-weight: 600;
+  }
+
+  .bg-white .martial-arts-description{
+    color:var(--text-color);
+    font-size: .5rem;
+    text-align: justify;
+    font-weight: normal;
+    letter-spacing: normal;
+  }
+
+  .bg-white .btn-join{
+    background-color: var(--main-color);
+    color:var(--text-color);
+    padding:.3rem .8rem;
+    font-size: .6rem;
+    margin-top: .5rem;
+  }
+
+  .bg-white .btn-join:hover{
+    background-color: rgba(188, 30, 30, 0.9);
+  }
+
+  .schedule{
+    display: none;
+    overflow-x: hidden;
+  }
+
+

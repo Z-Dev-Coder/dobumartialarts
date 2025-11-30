@@ -1,4 +1,19 @@
 let nav = document.querySelector("nav");
+let menu = document.querySelector("#menu-icon");
+let menuItems = document.querySelector(".menu-items");
+
+
+menu.onclick=()=>{
+  menu.classList.add('fa-xmark');
+  menu.classList.toggle('fa-bars');
+  menuItems.classList.toggle('active');
+}
+
+window.onscroll=()=>{
+  menu.classList.remove('fa-xmark');
+  menu.classList.add('fa-bars');
+  menuItems.classList.remove('active');
+}
 
     window.addEventListener("scroll",()=>{
       nav.classList.toggle("shadow",window.scrollY>0);
