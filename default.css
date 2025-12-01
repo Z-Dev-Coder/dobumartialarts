@@ -133,7 +133,7 @@ nav{
 }
 
 .intro{
-  height:50vh;
+  height:40vh;
 }
 
 section .container{
@@ -221,14 +221,14 @@ section .container{
   position:relative;
   width:100%;
   display:flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content:center;
   align-items: center;
   gap: 2rem;
 }
 .facilities-container .box{
-  width:210px;
-  height:210px;
+  width:85px;
+  height:85px;
   position:relative;
   transition:0.5s;
   border-bottom: 3px solid var(--main-color);
@@ -313,7 +313,7 @@ section .container{
 
 .martial-arts{
   width:100vw;
-  height:60vh;
+  height:45vh;
   background-color: var(--text-color);
   padding:30px 0 0;
 }
@@ -380,10 +380,10 @@ background-color: #00000091;
 }
 
 .text-section .p-font{
-  font-size: .7rem;
+  font-size: .6rem;
   font-weight: normal;
   letter-spacing: normal;
-  line-height: 1.2rem;
+  line-height: 1rem;
 }
 
 .text-section a{
@@ -393,9 +393,9 @@ background-color: #00000091;
 .text-section .btn-service{
   margin-top:.5rem;
   padding:.2rem 0;
-  width:100%;
+  width:60%;
   color:var(--text-color);
-  font-size: 70%;
+  font-size: 50%;
 }
 .btn-service{
   transition: .5s;
@@ -422,13 +422,13 @@ background-color: #00000091;
 .logo-group{
   display:flex;
   align-items: center;
-  padding-right: 1rem;
-  gap:1rem;
+  padding-right: 1.8rem;
+  gap:1.8rem;
   animation: spin 10s infinite linear;
 }
 .logo-group .card{
-  flex:0 0 5em;
-  height:2em;
+  flex:0 0 2em;
+  height:1.5em;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -484,7 +484,7 @@ background-color: #00000091;
 
 .pricing-section  .content-section{
   overflow: hidden;
-  margin:10px;
+  margin:10px 20px;
   padding-bottom: 10px;
   background-color: #e6e6e65b;
   border-radius: 1rem;
@@ -505,8 +505,8 @@ background-color: #00000091;
   color:#3f3f3fc9;
   font-size: .6rem;
   font-weight: normal;
-  text-align: justify;
-  padding:.5rem;
+  text-align: center;
+  padding:1rem;
 }
 
 .card-group{
@@ -514,14 +514,18 @@ background-color: #00000091;
   flex-direction: column;
   justify-content:center;
   align-items: center;
-  gap:2rem;
+  gap:1rem;
   padding:1rem 5rem;
+}
+
+.special-plans .card-group{
+  gap:1.8rem;
 }
 
 .card-group .plan-card{
   background-color: var(--text-color);
-  width:250px;
-  padding:1.6rem;
+  width:200px;
+  padding:1.2rem;
   border-radius: .6rem;
   box-shadow: 0 0 15px 0.3px #aaa;
   transition: 0.5s;
@@ -547,18 +551,18 @@ background-color: #00000091;
 
 .plan-card .card-heading{
   color:var(--bg-color);
-  font-size: 1rem;
+  font-size: .9rem;
   letter-spacing: .1rem;
 }
 
 .plan-card .sec-heading{
-  font-size:.7rem;
+  font-size:.6rem;
   margin-top:.6rem;
   color:#6e6e6e;
 }
 
 .plan-card .price-text{
-  font-size:1.2rem;
+  font-size:1.1rem;
   font-weight: 500;
   margin:.3rem 0 .5rem 0;
   color: var(--bg-color);
@@ -566,12 +570,12 @@ background-color: #00000091;
 
 .price-text .small-text{
   font-weight: 350;
-  font-size: .7rem;
+  font-size: .6rem;
 }
 
 .plan-card .description{
-  font-size:.7rem;
-  line-height: 1.5rem;
+  font-size:.6rem;
+  line-height: 1.2rem;
   color:#000000;
   font-weight: 200;
 }
@@ -591,13 +595,13 @@ background-color: #00000091;
 
 .plan-card .btn-plan{
   width:100%;
-  font-size:.8rem;
+  font-size:.6rem;
   background-color: var(--bg-color);
   color:var(--text-color);
   border-radius: 0.3rem;
   text-align: center;
   padding:.6rem 0;
-  margin-top:1rem;
+  margin-top:.5rem;
   font-weight: 200;
 }
 
@@ -606,18 +610,18 @@ background-color: #00000091;
   background-color: #e5e5e5be;
   font-weight: 400;
   padding:5px 12px;
-  font-size: .6rem;
+  font-size: .5rem;
   letter-spacing: normal;
   position:absolute;
-  top:22%;
+  top:28%;
   right:0;
   transform: translateX(10px);
 }
 
 .plan-card .session-text{
-  font-weight: 600;
+  font-weight: 400;
   padding:1.5px 12px;
-  font-size: .7rem;
+  font-size: .6rem;
   letter-spacing: .1rem;
   background-color: #bfc1ff77;
   color: #141881;

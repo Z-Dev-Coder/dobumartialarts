@@ -1,4 +1,86 @@
 
+@media(min-width:400px){
+  .intro{
+  height:45vh;
+}
+.facilities-container .box{
+  width:120px;
+  height:120px;
+  border-radius:7px;
+}
+
+.martial-arts{
+  height:45vh;
+}
+
+.text-section .p-font{
+  font-size: .7rem;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1.4rem;
+  text-align: justify;
+}
+
+.text-section .btn-service{
+  font-size: 55%;
+}
+
+.logo-group{
+  padding-right: 2.4rem;
+  gap:2.4rem;
+}
+
+.logo-group .card{
+  flex:0 0 3em;
+  height:1.8em;
+}
+
+.pricing-section  .content-section{
+  margin:10px 50px;
+}
+
+.content-section .small-description{
+  font-size: .7rem;
+  padding:.5rem 1rem;
+}
+
+.card-group{
+  gap:1.8rem;
+  padding:1rem 5rem;
+}
+
+.card-group .plan-card{
+  width:240px;
+  padding:1.4rem;
+
+}
+.plan-card .card-heading{
+  font-size: 1.1rem;
+  letter-spacing: .05rem;
+}
+
+.plan-card .sec-heading{
+  font-size:.7rem;
+}
+.plan-card .price-text{
+  font-size:1.2rem;
+}
+
+.plan-card .description{
+  font-size:.8rem;
+    line-height: 1.5rem;
+
+}
+.plan-card .btn-plan{
+  font-size:.7rem;
+}
+
+.instructor-img-group{
+  gap:2rem;
+}
+
+}
+
 @media (min-width:768px){
   html::-webkit-scrollbar{
   width:.5rem;
@@ -465,13 +547,14 @@ nav{
 }
 
 .content-text .text-section{
+  width:55%;
   padding:3rem 3rem 3rem 6rem;
 }
 
 .text-section .p-font{
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -612,10 +695,26 @@ footer ul li{
 }
 }
 
+@media(min-width:1150px){
+  .text-section .p-font{
+  line-height: 1.6rem;
+}
+}
+
 @media(min-width:1300px){
   .logo-group{
   padding-right: 5rem;
   gap:5rem;
+}
+.martial-arts-container .bg-img{
+  width:60%;
+}
+.content-text .text-section{
+  width:58%;
+}
+.text-section .p-font{
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .logo-carousel{
@@ -638,6 +737,15 @@ footer ul li{
   font-size: 1.2rem;
   padding:.3rem 4rem;
    margin:2rem;
+}
+}
+
+@media(min-width:1360px){
+  .martial-arts-container .bg-img{
+  width:55%;
+}
+.content-text .text-section{
+  width:55%;
 }
 }
 
@@ -676,10 +784,18 @@ footer ul li{
 .section-heading,.martial-arts-heading{
   font-size:2rem ;
 }
+
+.martial-arts-container .bg-img{
+  width:55%;
+}
+.content-text .text-section{
+  width:60%;
+}
+
 .text-section .p-font{
   font-size: 1.5rem;
   font-weight: 200;
-  line-height: 1.9rem;
+  line-height: 2.3rem;
 }
 
  .logo-group{
@@ -786,3 +902,4 @@ footer ul li{
   font-size: 1.4rem;
 }
 }
+

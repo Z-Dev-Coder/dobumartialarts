@@ -1,3 +1,28 @@
+@media(min-width:400px){
+ .trainer-heading{
+  margin-top:5rem;
+} 
+
+.left-section{
+  height:120px;
+  width:110px;
+  background-size:cover;
+  margin-top: 2rem;
+}
+.right-section{
+  padding:1rem 1rem 1rem 2rem;
+}
+
+.trainer-name{
+  text-align: center;
+}
+
+.trainer-description,.detail-section,.trainer-details{
+  text-align: justify;
+}
+
+}
+
 @media(min-width:768px){
   .trainer-section{
   padding:0;
@@ -18,11 +43,11 @@
 }
 
 .left-section{
-  flex:1;
+  width:160px;
   background-size:cover;
   border-radius: .8rem;
   margin-top: 0;
-  height: 200px;
+  height: 180px;
 }
 
 .right-section{
@@ -36,6 +61,7 @@
 }
 
 .trainer-name{
+  text-align: left;
   font-size: 1.4rem;
 }
 
@@ -45,23 +71,10 @@
 
 }
 
-@media(min-width:800px){
-  .left-section{
-  height: 265px;
-}
-
-.role{
-   font-size: .8rem;
-}
-
-.trainer-name{
-  font-size: 1.6rem;
-}
-
-.trainer-description,.detail-section,.trainer-details{
-  font-size: .9rem;
-  line-height: 1.5rem;
-}
+@media(min-width:1024px){
+  .trainer-card{
+  width:60%;
+  }
 
 }
 
@@ -74,11 +87,13 @@
 }
 
 .trainer-card{
+  width:70%;
   padding:2rem;
 }
 
 .left-section{
-  height: 350px;
+  width:200px;
+  height: 250px;
 }
 .role{
    font-size: 1rem;
@@ -99,21 +114,25 @@
 }
 
 @media(min-width:1440px){
-  .left-section{
-  height: 450px;
+.left-section{
+  width:250px;
+  height:300px;
 }
-
+  
+.trainer-card{
+  width:80%;
+}
 .trainer-name{
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .trainer-description,.detail-section,.trainer-details{
-  font-size: 1.4rem;
-  line-height: 2.6rem;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
 }
 
 .role{
-   font-size: 1.4rem;
+   font-size: 1.2rem;
 }
 
 }

@@ -9,6 +9,16 @@
 
 }
 
+@media(min-width:400px){
+  .bg-white .martial-arts-description{
+    line-height: 1.2rem;
+  }
+
+  .bg-white .btn-join{
+    margin-top: .6rem;
+  }
+}
+
 @media (min-width:425px){
     .bg-white .martial-art-heading{
     font-size: 1.2rem;

@@ -1,3 +1,15 @@
+@media(min-width:400px){
+  .form-heading{
+  font-size: 1rem;
+    margin:.6rem 0;
+  }
+
+  .form-description{
+  font-size: .7rem;
+  }
+
+}
+
 @media (min-width:768px){
 
 .form-container{
@@ -86,6 +98,7 @@ option{
 
 @media(min-width:925px){
 .form-container{
+  margin-top:5rem;
   width:70%;
   }
 }
@@ -130,6 +143,18 @@ input,#select{
  @media(min-width:1300px){
 .form-container{
   width:60%;
-  margin: 8rem;
+  margin: 150px;
 }
   }
+
+  @media(min-width:1440px){
+input,#select{
+  padding: .8rem .8rem;
+  font-size: 1rem;
+}
+
+.btn-LogIn{
+  font-size: .9rem;
+}
+}
+  
